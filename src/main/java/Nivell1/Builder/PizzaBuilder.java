@@ -5,7 +5,6 @@ import Nivell1.Modules.Enums.Size;
 import Nivell1.Modules.Enums.Toppings;
 import Nivell1.Modules.Pizza;
 
-import java.util.ArrayList;
 
 public class PizzaBuilder {
 

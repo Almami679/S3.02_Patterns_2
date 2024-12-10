@@ -12,10 +12,10 @@ public class PizzaMaster {
 
     private String name;
     private ArrayList<Pizza> pizzas;
-    private int pizzasHawai = 0;
-    private int pizzasRegi = 0;
-    private int pizzasCarn = 0;
-    private int pizzasVegg = 0;
+    private int pizzasHawai;
+    private int pizzasRegi;
+    private int pizzasCarn;
+    private int pizzasVegg;
 
     public PizzaMaster(String name){
         this.name = name;
