@@ -4,6 +4,10 @@ import Nivell1.Modules.Enums.Dough;
 import Nivell1.Modules.Enums.Size;
 import Nivell1.Modules.PizzaMaster;
 
+import static Nivell1.Builder.PizzaBuilderHawai.makePizzaHawai;
+import static Nivell1.Builder.PizzaBuilderRegina.makePizzaRegina;
+import static Nivell1.Builder.PizzaBuilderVeggie.makePizzaVeggie;
+import static Nivell1.Builder.PizzaMasterCarnivora.makePizzaCarnivora;
 import static Nivell1.Main.Logic.exit;
 import static Nivell1.Modules.Inputs.askOption;
 import static Nivell1.Modules.Inputs.askPizza;

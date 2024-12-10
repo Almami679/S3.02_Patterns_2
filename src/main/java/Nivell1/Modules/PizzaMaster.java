@@ -58,49 +58,13 @@ public class PizzaMaster {
         this.pizzasVegg++;
     }
 
-    public static Pizza makePizzaHawai(Size size, Dough dough) {
-       return new PizzaBuilder()
-                .size(size)
-                .dough(dough)
-                .toppings(new Toppings[]
-                        {Toppings.TOMATO, Toppings.CHEESE,
-                                Toppings.PROCCIUTO,
-                                Toppings.PINEAPPLE})
-               .name("Hawaiana").build();
-    }
 
-    public static Pizza makePizzaRegina(Size size, Dough dough) {
-        return new PizzaBuilder()
-                .size(size)
-                .dough(dough)
-                .toppings(new Toppings[]
-                        {Toppings.TOMATO, Toppings.CHEESE,
-                                Toppings.PROCCIUTO,
-                                Toppings.MUSHROOMS})
-                .name("Regina").build();
-    }
 
-    public static Pizza makePizzaCarnivora(Size size, Dough dough) {
-        return new PizzaBuilder()
-                .size(size)
-                .dough(dough)
-                .toppings(new Toppings[]
-                        {Toppings.TOMATO, Toppings.CHEESE,
-                                Toppings.PROCCIUTO,
-                                Toppings.MEAT})
-                .name("Carnivora").build();
-    }
 
-    public static Pizza makePizzaVeggie(Size size, Dough dough) {
-        return new PizzaBuilder()
-                .size(size)
-                .dough(dough)
-                .toppings(new Toppings[]
-                        {Toppings.TOMATO, Toppings.CHEESE,
-                                Toppings.OLIVES,
-                                Toppings.VEGETABLES})
-                .name("Veggie").build();
-    }
+
+
+
+
 
     public void resumePizzas(){
         pizzas.forEach(pizza -> System.out.println(pizza.toString()));
